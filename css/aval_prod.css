@@ -1,0 +1,87 @@
+body{
+	background-color: #e2e2e2;
+}
+#container-aval{
+	width: 100%;
+	margin: 0 auto;
+	padding: 25px;
+}
+#container-aval-content{
+	width: 95%;
+	flex-wrap: wrap;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+}
+form{
+	max-height: 800px;
+}
+form, #prod-tw-aval{
+	width: 85%;
+	margin: 0 auto;
+	text-align: left;
+	position: relative;
+}
+#prod-tw-aval img{
+	width: 200px;
+	height: 200px;
+	transform: translate(25%);
+	margin-top: 6%;
+}
+#div-form-aval{
+	width: 30%;
+	background-color: white;
+	margin-top: 2%;
+	border-radius: 5px;
+	display: grid;
+	text-align: center;
+	position: relative;
+	border-left: 5px solid #69be69;
+	margin: 0 auto;
+	margin-top: 2%;
+}
+#prod-name-fix-h{
+	max-height: 4vw;
+}
+#select-opinion{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(http://www.webcis.com.br/images/imagens-noticias/select/ico-seta-appearance.gif) no-repeat #eeeeee;
+	background-position: 100% center; 
+	width: 90%; 
+	height: 4vw; 
+	padding-left: 15px;
+	border:1px solid #ddd;
+	margin-bottom: 25px;
+	margin-top: 7px;
+}
+#textarea-comment{
+	width: 90%;
+	resize: none;
+	outline: 0;
+	padding: 15px;
+	height: 16vw;
+	border: 0;
+	border-radius: 3px;
+	background-color: #f0f0f0;
+}
+#insert-aval{
+	font-size: 0.9rem;
+	width: 40%;
+	height: 3vw;
+	background-color: #222222;
+	border: 0;
+	transition: 0.2s all;
+	color: white;
+	border-radius: 2px;
+	margin-bottom: 10%;
+}
+#insert-aval:hover{
+	background-color: #2c772c;
+	color: white;
+}
+::placeholder{
+	color: #696969;
+}

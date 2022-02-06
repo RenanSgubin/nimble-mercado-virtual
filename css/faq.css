@@ -1,0 +1,121 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	border: 0;
+}
+#container{
+	width: 100%;
+}
+.questions{
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 2%;
+	height: 5em;
+	background-color: #ffffff;
+	border: 2px solid #c6c6c6;
+	border-radius: 5px;
+	display: flex;
+	/*justify-content: center; ALINHA NO CENTRO HORIZONTALMENTE | */
+	align-items: center;/*ALINHA NO CENTRO VERTICALMENTE -- */
+	cursor: pointer;
+	transition: 0.2s all;
+	color: black;
+}
+.questions:hover{
+	border: 2px solid #e86332;
+	color: #1a212a;
+}
+.questions b{
+	margin-left: 5%;
+	font-weight: 500;
+}
+.arrow-down{
+	width: 3%;
+	position: absolute;
+	right: 5%;
+}
+#title-faq{
+	width: 100%;
+	height: 40vw;
+	background-image: linear-gradient(to right, #1a212a 50%, #e86332 50%);
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2em;
+	color: white;
+}
+
+#title-faq b{
+	font-size: 1.6em;
+}
+#content-title-faq{
+	display: grid;
+}
+#sup-id{
+	width: 150%;
+	height: 4vw;
+	outline-style: none;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding-left: 15%;
+}
+.hidden-answers{
+	width: 50%;
+	margin: 0 auto;
+	background-color: #f4f4f4;
+	padding: 20px;
+	display: none;
+}
+#div-solve-problem{
+ display: flex;
+	align-items: center;
+	background-color: #e86332;
+	margin-top: 5%;
+	height: 50vw;
+	position: relative;
+	margin-bottom: -4%;
+}
+.inputs-supp{
+	width: 85%;
+	outline-style: none;
+	height: 2.8em;
+	border-radius: 5px;
+	font-size: 0.9em;
+	font-weight: 100;
+	color: #191919;
+	padding: 10px;
+}
+select{
+	cursor: pointer;
+}
+#textarea-description{
+	height: 9em;
+}
+#contents-input-supp{
+	width: 35%;
+	text-align: left;
+	color: white;
+	margin-left: 20%;
+	z-index: 1001;
+}
+#contents-input-supp b{
+	font-size: 1.7rem;
+	font-weight: 600;
+}
+#support-img{
+	width: 20%;
+	margin-left: 10%;
+}
+#btn-submit-sup{
+	width: 35%;
+	height: 3.5vw;
+	background-color: #262f3b;
+	border-radius: 3px;
+	color: #e2e2e2;
+	transition: 0.2s all;
+}
+#btn-submit-sup:hover{
+	background-color: #181f27;
+}

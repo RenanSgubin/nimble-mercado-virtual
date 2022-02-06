@@ -1,0 +1,107 @@
+body{
+	background-color: #dbdbdb;
+}
+#container-account{
+	width: 85%;
+	margin: 0 auto;
+	position: relative;
+	height: 20vw;
+}
+#content-container{
+	position: absolute;
+	left: 0%;
+	top: 0%;
+	width: 20%;
+}
+.account-options{
+	display: flex;
+	align-items: center;
+	justify-content:flex-start;
+	background-color: white;
+	height: 4vw;
+	position: relative;
+	margin: 0 auto;
+	border-bottom: 1px solid #b2b2b2;
+	color: #585858;
+	font-size: 0.85rem;
+	width: 125%;
+}
+.container-img{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 25%;
+	margin-left: -15%;
+}
+.material-icons{
+ color: #7c7c7c;
+}
+
+
+
+
+/*Efeitos de hover*/
+#first-ul:hover{
+	background-color: #1d1d1d;
+	color: #acacac;
+}
+#first-ul:hover .first-icon{
+	color: #a0a0a0;
+}
+
+#second-ul:hover{
+	background-color: #1d1d1d;
+	color: #acacac;
+}
+#second-ul:hover .second-icon{
+	color: #a0a0a0;
+}
+
+#third-ul:hover{
+	background-color: #1d1d1d;
+	color: #acacac;
+}
+#third-ul:hover .third-icon{
+	color: #a0a0a0;
+}
+
+#fourth-ul:hover{
+	background-color: #1d1d1d;
+	color: #acacac;
+}
+#fourth-ul:hover .fourth-icon{
+	color: #a0a0a0;
+}
+
+#fifth-ul:hover{
+	background-color: #1d1d1d;
+	color: #acacac;
+}
+#fifth-ul:hover .fifth-icon{
+	color: #a0a0a0;
+}
+
+#sixth-ul:hover{
+	background-color: #1d1d1d;
+	color: #acacac;
+}
+#sixth-ul:hover .sixth-icon{
+	color: #a0a0a0;
+}
+
+#seventh-ul:hover{
+	background-color: #1d1d1d;
+	color: #acacac;
+}
+#seventh-ul:hover .seventh-icon{
+	color: #a0a0a0;
+}
+
+#eigth-ul:hover{
+	background-color: #1d1d1d;
+	color: #acacac;
+}
+#eigth-ul:hover .eigth-icon{
+	color: #a0a0a0;
+}

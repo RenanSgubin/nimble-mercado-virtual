@@ -1,0 +1,116 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+}
+.divs-infsite a{
+	text-decoration: none;
+	color: #a3a3a3;
+}
+.divs-infsite a:hover{
+	color: #ffffff;
+}
+#enterprises{
+	position: relative;
+	background-color:#242424;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+	width: 100%;
+	height: 25vw;
+	margin-top: 4%;
+	text-align: center;
+}
+.divs-infsite{
+	text-align: center;
+	width: 20%;
+	margin: 0 auto;
+	padding: 2px;
+}
+.divs-infsite b{
+	float: left;
+	margin: 0 auto;
+	font-size: 1rem;
+	color: #e86332;
+	margin-bottom: 18px;
+}
+.links-infsite{
+	clear: both;
+	float: left;
+	font-size: 0.9rem;
+}
+
+#aux-div{
+	padding: 40px;
+	width: 70%;
+	display: flex;
+	flex-wrap: wrap;
+}
+#div-social-network{
+	width: 100%;
+	background-color: #1a1a1a;
+	height: 6em;
+	position: absolute;
+	top: 100%;
+	display: flex;
+	align-items: center;
+}
+.icons-media{
+	width: 2.8%;
+	height: 3em;
+	border: 1px solid #ffffff;
+	position: relative;
+ left: 42.5%;
+	margin-right: 30px;
+	display: flex;
+	align-items: center;
+	transition: ease 0.2s;
+	outline-style: none;
+	text-decoration: none;
+}
+.icons-media:hover{
+	background-color: black;
+}
+.icons-media:hover #i-facebook-icon{
+	color: #e86332;
+}
+.icons-media:hover #i-twitter-icon {
+	color: #e86332;
+}
+.icons-media:hover #i-linkedin-icon{
+	color: #e86332;
+}
+#i-facebook-icon, #i-twitter-icon, #i-linkedin-icon{
+	margin: 0 auto;
+	color: white;
+	position: relative;
+}
+@media screen and (max-width: 950px){
+	#enterprises{
+		height: 500px;
+	}
+	#aux-div{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 740px){
+	.divs-infsite{
+		width: 130px;
+	}
+}
+@media screen and (max-width: 650px){
+	#enterprises{
+		height: 800px;
+	}
+}
+@media screen and (max-width: 1368px){
+	.icons-media{
+		width: 3.5%;
+	}
+}
+@media screen and (max-width: 1368px){
+    #div-social-network{
+        height: 5em;
+    }
+}

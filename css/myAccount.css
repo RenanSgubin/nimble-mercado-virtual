@@ -1,0 +1,391 @@
+/***************************************************************/
+/*************************MINHA CONTA***************************/
+/***************************************************************/
+html, body{
+		height: 100%;
+}
+
+#container-my-account{
+	width: 95%;
+	margin: 0 auto;
+	position: relative;
+	display: grid;
+	min-height: 100%;
+}
+#align-top{
+	margin-top: -40%;
+}
+#align-top-hist{
+	margin-top: -38.5%;
+}
+#nav-conta{
+	width: 100%;
+	margin-top: 2.5%;
+	position: relative;
+}
+#personal-infos-title{
+	font-family: 'Poppins',sans-serif;
+	font-size: 1.25rem;
+	margin-left: 32%;
+	margin-top: 8%;
+}
+#personal-infos{
+	position: relative;
+	display: flex;
+	height: 13vw;
+	width: 50%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 10px;
+	margin-left: 32%;
+	margin-top: 2%;
+	align-items: center;
+}
+#adress-title{
+	font-family: 'Poppins',sans-serif;
+	font-size: 1.25rem;
+	margin-left: 32%;
+	margin-top: 2%;
+}
+#adress{
+	height: auto;
+	width: 50%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 30px;
+	margin-left: 32%;
+	margin-top: 2%;
+}
+.center{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	position: relative;
+	left: 12.5%;
+	align-items: center;
+}
+.div-order{
+	margin: 0 auto;
+	width: 50%;
+	font-size: 0.95rem;
+	color: #838383;
+}
+@media screen and (max-width: 1368px){
+ #align-top{
+	margin-top: -30%;
+}
+#align-top-hist{
+ margin-top: -38.5%;
+}
+}
+
+
+
+
+
+
+
+/***************************************************************/
+/*************************HISTÓRICO DE PEDIDOS******************/
+/***************************************************************/
+#request-flex{
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	width: 70%;
+	margin-left: 32%;
+	margin-top: 2%;
+	border-radius: 5px;
+	background-color: #ffffff;
+	color: #5c5c5c;
+}
+#request-flex-no-orders{
+	display: flex;
+	flex-wrap: wrap;
+	height: 20vw;
+	width: 50%;
+	margin-left: 32%;
+	margin-top: 2%;
+	border-radius: 5px;
+	background-color: #ffffff;
+	color: #5c5c5c;
+	align-items: center;
+	justify-content: center;
+	font-family: 'Poppins',sans-serif;
+}
+#requests-div-main{
+	padding: 20px;
+	display: grid;
+	text-align: center;
+	width: 30%;
+	position: relative;
+	height: 350px;
+}
+#requests-div-main:hover{
+	outline: 2px solid #e86332;
+}
+#name-request{
+	font-family: 'Poppins',sans-serif;
+	color: #606060;
+}
+#prod-note{
+	font-family: 'Poppins',sans-serif;
+	color: #3c3c3c;
+	font-weight: 200;
+}
+#request-img{
+	width: 150px;
+	height: 150px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-60%);
+}
+
+
+
+
+
+
+
+
+
+/***************************************************************/
+/*************************ENDEREÇO******************************/
+/***************************************************************/
+#request-flex-adress{
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	height: 14vw;
+	width: 70%;
+	margin-left: 32%;
+	margin-top: 2%;
+	border-radius: 5px;
+	background-color: #ffffff;
+	color: #5c5c5c;
+	align-items: center;
+}
+#adress-infos{
+	margin-left: 2.5%; 
+}
+#change-cep{
+	height: 2.7vw;
+	border: 0;
+	border-bottom: 1px solid #5c5c5c;
+	padding: 10px;
+	padding-left: 15%;
+	margin: 0 auto;
+	background-image: url(../img/map-pin.svg);
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#change-cep:focus{
+	outline-style: none;
+	border-bottom: 1px solid #272727;
+}
+#save-changes{
+	position: absolute;
+	right: 5%;
+	bottom: 50%;
+	transform: translateY(50%);
+	height: 2.5vw;
+	background-color: #e86332;
+	border: 0;
+	color: white;
+	-webkit-box-shadow: 0px 6px 0px 0px #db450d; 
+ box-shadow: 0px 6px 0px 0px #db450d;
+	transition: 0.2s ease-in-out;
+	font-size: 0.9rem;
+}
+#save-changes:focus{
+	outline-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************/
+/*************************ALTERAR SENHA*************************/
+/***************************************************************/
+#request-flex-change-psw{
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	height: auto;
+	width: 60%;
+	margin-left: 32%;
+	margin-top: 2%;
+	border-radius: 5px;
+	background-color: #ffffff;
+	color: #5c5c5c;
+	justify-content: flex-start;
+	padding: 30px;
+}
+#form-change-psw{
+	margin-left: 5%;
+	margin-top: 2.5%;
+}
+#confirm-change-password-id, #change-password-id{
+	width: 300px;
+	height: 3.5vw;
+	border: 1px solid #909090;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-left: 0;
+}
+#confirm-change-password-id:focus, #change-password-id:focus{
+	outline-style: none;
+}
+.flex-img-w-input{
+	display: flex;
+	align-items: center;
+}
+.lock-icon{
+	border: 1px solid #909090;
+	border-right: 0;
+	height: 3.5vw;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	display: flex;
+	align-items: center;
+	padding: 10px;
+}
+#save-changes-psw{
+	width: 35%;
+	height: 2.5vw;
+	background-color: #e86332;
+	border: 0;
+	color: white;
+	-webkit-box-shadow: 0px 6px 0px 0px #db450d; 
+ box-shadow: 0px 6px 0px 0px #db450d;
+	transition: 0.2s ease-in-out;
+	font-size: 0.9rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************/
+/*************************LISTA DE DESEJOS**********************/
+/***************************************************************/
+#request-flex-wishes{
+ position: absolute;
+	height: auto;
+	width: 65%;
+	margin-left: 32%;
+	margin-top: 2%;
+	border-radius: 5px;
+	background-color: #505050;
+	color: #5c5c5c;
+	padding: 20px;
+}
+#requests-div-wishes{
+	display: flex;
+	justify-content: space-between;
+ align-items: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 15px;
+	position: relative;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-top: 2%;
+}
+#request-img-wishes{
+	margin-left: 5%;
+	width: 150px;
+	height: 150px;
+}
+#requests-div-wishes b{
+	position: absolute;
+	right: 50%;
+	transform: translateX(50%);
+	width: 25%;
+}
+#trash-icon-gray{
+	margin-right: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***************************************************************/
+/*************************ALTERAR DADOS*************************/
+/***************************************************************/
+#request-flex-change-data{
+	position: absolute;
+	display: flex;
+	align-items: center;
+	height: 25vw;
+	width: 60%;
+	margin-left: 32%;
+	margin-top: 2%;
+	border-radius: 5px;
+	background-color: #ffffff;
+	color: #5c5c5c;
+	padding: 30px;
+}
+.divs-col-5{
+	display: flex;
+	align-items: center;
+	position: relative;
+}
+.inputs-alter-data{
+	height: 3.5vw;
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border: 1px solid #c1c1c1;
+	border-left: 0;
+	color: #4e4e4e;
+}
+.icons-alter-data{
+	width: 30px;
+	font-size: 1rem;
+	height: 3.5vw;
+	border: 1px solid #c1c1c1;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border-right: 0;
+	padding-left: 10px;
+}
+#save-changes-data{
+	width: 25%;
+	height: 3vw;
+	background-color: #e86332;
+	border: 0;
+	color: white;
+	-webkit-box-shadow: 0px 6px 0px 0px #db450d; 
+ box-shadow: 0px 6px 0px 0px #db450d;
+	transition: 0.2s ease-in-out;
+	font-size: 0.9rem;
+	margin-left: 1%;
+}
+
+
+
