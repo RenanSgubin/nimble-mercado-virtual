@@ -16,7 +16,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 	</head>
 	<body>
-    <div id="container">
+		<?php include_once("../php/nav.php")?>
+			<div id="container">
 				<div id="title-faq">
 						 <div id="content-title-faq">
 								<b>Procurando por ajuda?</b><br>
